@@ -1,0 +1,15 @@
+name: SnapPatches
+author: kcin
+version: 1.0
+main: me.kcin.kcin.Mainkcin
+description: Exploit Patches and stuff
+
+commands:
+ kcin:
+  usage: /<command>
+  description: main cmd
+  
+permissions:
+ kcin.*:
+  description: grants all SnapPatches perms
+  default: op
