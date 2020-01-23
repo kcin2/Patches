@@ -48,7 +48,7 @@ public class Mainkcin extends JavaPlugin implements Listener {
 		boolean isResistRework = this.getConfig().getBoolean("resistance-rework-enabled");
 		String savedSpawnWorld = this.getConfig().get("resistance-rework.world").toString();
 		int amp = player.getPotionEffect(PotionEffectType.DAMAGE_RESISTANCE).getAmplifier();
-		if (isResistRework && player.getWorld().getName().toString() == savedSpawnWorld && amp > 0) {
+		if (isResistRework && player.getWorld().getName().toString().equalsIgnoreCase(savedSpawnWorld) && amp > 0) {
 			// int dur = player.getPotionEffect(PotionEffectType.DAMAGE_RESISTANCE).getDuration();
 			player.removePotionEffect(PotionEffectType.DAMAGE_RESISTANCE);
 			// player.addPotionEffect(new PotionEffect(PotionEffectType.DAMAGE_RESISTANCE, dur, 0));
