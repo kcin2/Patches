@@ -72,9 +72,9 @@ public class Commands extends CommandExecute implements Listener, CommandExecuto
 					}
 
 				} else {
-					if (clr > 9) {clr = 0;}
+					if (clr > 11) {clr = 0;}
 					String a = str[clr];
-					sender.sendMessage("ง" + a + " ok");
+					sender.sendMessage("ยง" + a + " ok");
 					clr++;
 					return true;
 					
