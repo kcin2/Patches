@@ -39,7 +39,7 @@
 						clr = 0;
 					}
 					String a = str[clr];
-					sender.sendMessage("§" + a + "ok");
+					sender.sendMessage("§" + a + " ok");
 					clr++;
 					return true;
 
