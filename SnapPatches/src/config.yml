@@ -5,6 +5,3 @@
 resistance-rework-enabled: true
 resistance-rework:
   world: lobby
-plotspatch-enabled: true
-plotspatch:
-  world: plots
